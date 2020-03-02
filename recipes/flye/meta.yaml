@@ -1,12 +1,12 @@
-{% set version = "2.6" %}
+{% set version = "2.7" %}
 
 package:
   name: flye
   version: {{ version }}
 
 source:
-  url: https://github.com/fenderglass/Flye/archive/{{ version }}.tar.gz
-  sha256: 5bdc44b84712794fa4264eed690d8c65c0d72f495c7bbf2cd15b634254809131
+  url: https://github.com/fenderglass/Flye/archive/flye.tar.gz
+  sha256: a9b442c78cdbe8287dba9ca4536c015c523007c8e6a37a7729e9fcf7c3af0309
 
 build:
   number: 0
