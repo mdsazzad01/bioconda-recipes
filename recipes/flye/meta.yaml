@@ -23,11 +23,16 @@ requirements:
     - zlib
   run:
     - python
+    - setuptools
 
 test:
   commands:
     - flye -h | grep Assembly
     - python -c "import flye.tests.test_toy as t; t.main()"
+
+extra:
+  skip-lints:
+    - uses_setuptools  #uses pkg_resources
 
 about:
   home: https://github.com/fenderglass/Flye/
