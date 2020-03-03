@@ -19,6 +19,7 @@ requirements:
     - zlib
   host:
     - python
+    - setuptools
     - zlib
   run:
     - python
