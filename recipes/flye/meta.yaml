@@ -13,6 +13,8 @@ build:
 
 requirements:
   build:
+    - python
+    - setuptools
     - {{ compiler('cxx') }}
     - zlib
   host:
